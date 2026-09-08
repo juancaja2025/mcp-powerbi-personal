@@ -1,0 +1,19 @@
+{
+  "name": "mcp-powerbi-personal",
+  "version": "1.0.0",
+  "description": "MCP personal para consultar tu Power BI Service (workspaces, datasets, DAX) desde Claude, usando tu propia cuenta OCASA.",
+  "main": "src/index.js",
+  "scripts": {
+    "login": "node src/login.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@azure/msal-node": "^6.0.0",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.5.4"
+  }
+}
