@@ -10,7 +10,13 @@ MCP para que Claude pueda consultar tu Power BI Service (workspaces, datasets, r
 
 ## Instalación (una sola vez)
 
-1. Descargá o cloná esta carpeta en tu máquina.
+1. Cloná el repo:
+
+   ```powershell
+   git clone https://github.com/juancaja2025/mcp-powerbi-personal.git
+   cd mcp-powerbi-personal
+   ```
+
 2. Abrí PowerShell en esta carpeta y corré:
 
    ```powershell
